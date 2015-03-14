@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mmorita:bootcardsjs',
-  version: '1.1.0-1',
+  version: '1.1.0-2',
   // Brief, one-line summary of the package.
   summary: 'bootcards.js for Meteor - A cards-based UI framework for mobile and desktop apps',
   // URL to the Git repository containing the source code for this package.
@@ -22,6 +22,7 @@ Package.onUse(function(api) {
   api.addFiles('bootcards-1.1.0/dist/fonts/icomoon.woff', 'client');
 
   api.addFiles('bootcards-1.1.0/dist/js/bootcards.min.js', 'client');
+  api.addFiles('init.js', 'client');
 });
 
 Package.onTest(function(api) {
