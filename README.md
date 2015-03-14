@@ -8,7 +8,7 @@ Bootcards.js is a cards-based UI with dual-pane capability for mobile and deskto
 
 ```
 meteor add mmorita:bootcardsjs
-``
+```
 
 # Dependencies
 
